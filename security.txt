@@ -2,3 +2,13 @@ Contact: mailto:security@rasa.com
 Preferred-Languages: en
 Canonical: https://github.com/RasaHQ/rasa/blob/main/security.txt
 Hiring: https://rasa.com/jobs
+
+ruamel.yaml is being quarantined in my organization which is generating vulnerability reports. This is a long standing issue.
+
+Is there a resolution / workaround? I can't install from internet pypi.
+
+rasa==1.6.0
+rasa-sdk==1.6.1
+ruamel.yaml==0.15.100
+
+Can we use some other package instead of ruamel.yaml
